@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './TrackList.module.css'
+import './TrackList.module.css'
 
 function TrackList() {
   return (

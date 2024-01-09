@@ -1,10 +1,15 @@
 import React from 'react';
 
-import NavBar from '../../NavBar/NavBar';
-import styles from './App.css';
+import './App.css';
 
 function App() {
-  return <NavBar />;
+  return (
+    <div>
+      <h1>
+        Sco<span></span>ttify
+      </h1>
+    </div>
+  )
 }
 
 export default App;
