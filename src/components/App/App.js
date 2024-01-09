@@ -47,7 +47,7 @@ const App = () => {
   return (
     <div>
       <h1>
-        Sco<span className="highlight">TTT</span>ify
+        SCO<span className="highlight">TTT</span>IFY
       </h1>
       <div className="App">
         <SearchBar onSearch={search} />
