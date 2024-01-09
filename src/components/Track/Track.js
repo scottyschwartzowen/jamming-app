@@ -36,8 +36,7 @@ const Track = (props) => {
       <div className="Track-information">
         <h3>{props.track.name}</h3>
         <p>
-          {props.track.artist}
-          {props.track.album}
+          {props.track.artist} | {props.track.album}
         </p>
       </div>
       {renderAction()}
