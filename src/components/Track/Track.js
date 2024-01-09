@@ -25,7 +25,7 @@ const Track = (props) => {
       );
     }
     return (
-      <button className="track-action" onClick={addTrack}>
+      <button className="Track-action" onClick={addTrack}>
         +
       </button>
     );
