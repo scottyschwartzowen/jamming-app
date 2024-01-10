@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback } from 'react';
 
 import './SearchBar.css';
 
@@ -9,12 +9,9 @@ const SearchBar = (props) => {
     setTerm(event.target.value);
   }, []);
 
-  const search = useCallback(
-    (props) => {
-      props.onSearch(term);
-    },
-    [props.onSearch, term]
-  );
+  const search = useCallback(() => {
+    props.onSearch(term);
+  }, [props.onSearch, term]);
 
   return (
     <div className="SearchBar">
