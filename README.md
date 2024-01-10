@@ -2,9 +2,11 @@
 
 Link
 
-## Web App
+# Web App
 
-## Features
+- built with html/css/javascript/react
+
+# Features
 
 - Search names of songs
 
