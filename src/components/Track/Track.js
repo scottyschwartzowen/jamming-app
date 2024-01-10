@@ -16,7 +16,7 @@ const Track = (props) => {
     [props.onRemove, props.track]
   );
 
-  const renderAction = () => {
+  const renderAction = (props) => {
     if (props.isRemoval) {
       return (
         <button className="Track-action" onClick={removeTrack}>
