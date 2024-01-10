@@ -6,8 +6,6 @@ Link
 
 - Built with html/css/javascript/react
 
-(requires user to initially login to their Spotify account)
-
 # Features
 
 - Search for song titles
@@ -17,5 +15,7 @@ Link
 - Name your playlist
 
 - Save & submit new playlist to your Spotify account
+
+(requires user to initially login to their Spotify account)
 
 - Playlist populates in your Spotify for you to play
