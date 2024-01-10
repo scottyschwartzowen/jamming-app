@@ -62,7 +62,7 @@ const App = () => {
             onSave={savePlaylist}
           />
         </div>
-      <ResetButton />
+        <ResetButton />
       </div>
     </div>
   );
