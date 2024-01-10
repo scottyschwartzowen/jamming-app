@@ -4,16 +4,18 @@ Link
 
 # Web App
 
-- built with html/css/javascript/react
+- Built with html/css/javascript/react
+
+(requires user to initially login to their Spotify account)
 
 # Features
 
-- Search names of songs
+- Search for song titles
 
 - Add songs to a playlist
 
-- Name playlist
+- Name your playlist
 
-- Save & submit new playlist to Spotify account
+- Save & submit new playlist to your Spotify account
 
-- Can play playlist in Spotify
+- Playlist populates in your Spotify for you to play
