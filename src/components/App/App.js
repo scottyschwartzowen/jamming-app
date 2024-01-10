@@ -6,6 +6,7 @@ import Playlist from '../Playlist/Playlist';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Spotify from '../../api/Spotify';
+import ResetButton from '../Buttons/ResetButton';
 
 const App = () => {
   const [searchResults, setSearchResults] = useState([]);
@@ -61,6 +62,7 @@ const App = () => {
             onSave={savePlaylist}
           />
         </div>
+      <ResetButton />
       </div>
     </div>
   );

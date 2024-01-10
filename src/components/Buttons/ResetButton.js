@@ -1,10 +1,18 @@
-import React from 'react';
-import styles from './ResetButton.module.css';
+import React, { useState, useCallback } from 'react';
+import './ResetButton.css';
 
-function ResetButton() {
+const ResetButton = () => {
+  const handleReset = useCallback(() => {
+    window.location.reload();
+  }, []);
+
   return (
-    <div>ResetButton</div>
-  )
-}
+    <div className="ResetContainer">
+      <button className="ResetButton" onClick={handleReset}>
+        RESET
+      </button>
+    </div>
+  );
+};
 
 export default ResetButton;
