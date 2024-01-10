@@ -16,6 +16,6 @@ Link
 
 - Save & submit new playlist to your Spotify account
 
-(requires user to initially login to their Spotify account)
+  (requires user to initially login to their Spotify account)
 
 - Playlist populates in your Spotify for you to play
