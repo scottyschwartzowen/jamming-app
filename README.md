@@ -4,7 +4,7 @@ Link
 
 # Web App
 
-- Built with html / css / javascript / react
+- Built with HTML / CSS / JAVASCRIPT / REACT
 
 # Features
 
