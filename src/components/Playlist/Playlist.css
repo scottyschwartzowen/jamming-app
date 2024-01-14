@@ -18,7 +18,7 @@
   border-bottom: 1px solid #6f6f6f;
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
-  color: #faf9f6;
+  color: #f4ede9;
 }
 
 .Playlist-save {
@@ -32,7 +32,7 @@
   text-align: center;
   font-size: 0.83rem;
   transition: background-color 0.25s;
-  color: #faf9f6;
+  color: #f4ede9;
   font-weight: 500;
 }
 
