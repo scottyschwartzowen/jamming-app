@@ -8,13 +8,13 @@ Link
 
 # Features
 
-- Search for song titles
+- Search for song titles, albums, artist names
   (redirects user to initially login to their Spotify account)
 
-- Add songs to a playlist
+- Add songs or albums to a playlist
 
 - Name your playlist
 
-- Save & submit new playlist to your Spotify account
+- Save & submit your new playlist to your Spotify account
 
 - Playlist populates in your Spotify for you to play
