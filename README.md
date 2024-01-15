@@ -1,6 +1,6 @@
 ![img](src/components/App/screenshot-scottify.png)
 
-[LINK](https://scotttify.netlify.app)
+[SCOTTIFY](https://scotttify.netlify.app)
 
 # Web App
 
