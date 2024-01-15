@@ -1,4 +1,5 @@
-const clientId = 'dbcc6685ad5d4ad094c7360dbe7b6fa2'; // Insert client ID here.
+const clientId = 'dbcc6685ad5d4ad094c7360dbe7b6fa2';
+// process.env.REACT_APP_SPOTIFY_CLIENT_ID;
 const redirectUri = 'http://localhost:3000/callback'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken;
 
@@ -22,7 +23,7 @@ const Spotify = {
     }
   },
 
-  search(term) {
+  async search(term) {
     const accessToken = Spotify.getAccessToken();
     return fetch(`https://api.spotify.com/v1/search?type=track&q=${term}`, {
       headers: {
@@ -46,7 +47,7 @@ const Spotify = {
       });
   },
 
-  savePlaylist(name, trackUris) {
+  async savePlaylist(name, trackUris) {
     if (!name || !trackUris.length) {
       return;
     }

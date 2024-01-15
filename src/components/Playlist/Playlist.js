@@ -9,12 +9,16 @@ const Playlist = (props) => {
     (event) => {
       props.onNameChange(event.target.value);
     },
-    [props.onNameChange]
+    [props]
   );
 
   return (
     <div className="Playlist">
-      <input onChange={handleNameChange} placeholder="Playlist name..." />
+      <input
+        value={props.playlistName}
+        onChange={handleNameChange}
+        placeholder="Playlist name..."
+      />
       <TrackList
         tracks={props.playlistTracks}
         isRemoval={true}
