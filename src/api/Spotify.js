@@ -1,3 +1,5 @@
+// use this documentation to setup retrieving anyone else's access token https://developer.spotify.com/documentation/web-api/howtos/web-app-profile
+
 const clientId = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
 const redirectUri = 'https://scotttify.netlify.app';
 let accessToken;
@@ -24,14 +26,11 @@ const Spotify = {
 
   async search(term) {
     const accessToken = Spotify.getAccessToken();
-    const response = await fetch(
-      `https://api.spotify.com/v1/search?type=track&q=${term}`,
-      {
-        headers: {
-          Authorization: `Bearer ${accessToken}`,
-        },
-      }
-    )
+    return fetch(`https://api.spotify.com/v1/search?type=track&q=${term}`, {
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+      },
+    })
       .then((response) => {
         return response.json();
       })
