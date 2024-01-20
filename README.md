@@ -1,10 +1,10 @@
-![img](public.screenshot.png)
+![img](src/components/App/screenshot-scottify.png)
 
 [LINK](https://scotttify.netlify.app)
 
-(App in dev mode. To experience full functionality, email your full name & email address to scottyschwartzowen@gmail.com to be added to Spotify's user authentication.)
+(App in dev mode. To experience full functionality, email your full name & email address to scottyschwartzowen@gmail.com to be added to Spotify's dev mode user authentication.)
 
-# Contacts / Appointments Web App
+# Spotify Playlist Creator Web App
 
 - Built with HTML / CSS / JAVASCRIPT / REACT
 
@@ -12,10 +12,11 @@
 
 # Features
 
-- Add contacts to Contact List
+- Search for song titles, albums, artist names
+  (redirects user to initially login to their Spotify account)
 
-- Create an appointment with local Date and Time functionality
+- Add songs or albums to a playlist
 
-- Attached selected Contact to the Appointment
+- Save & submit your new playlist to your Spotify account
 
-- Submit Appointment to list as a reminder of upcoming appointments
+- Playlist populates in your Spotify for you to play
