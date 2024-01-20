@@ -1,20 +1,21 @@
-![img](src/components/App/screenshot-scottify.png)
+![img](public.screenshot.png)
 
-[SCOTTIFY](https://scotttify.netlify.app)
+[LINK](https://scotttify.netlify.app)
 
-# Web App
+(App in dev mode. To experience full functionality, email your full name & email address to scottyschwartzowen@gmail.com to be added to Spotify's user authentication.)
+
+# Contacts / Appointments Web App
 
 - Built with HTML / CSS / JAVASCRIPT / REACT
 
+- I made this as part of Codecademy's Full Stack Developer course
+
 # Features
 
-- Search for song titles, albums, artist names
-  (redirects user to initially login to their Spotify account)
+- Add contacts to Contact List
 
-- Add songs or albums to a playlist
+- Create an appointment with local Date and Time functionality
 
-- Name your playlist
+- Attached selected Contact to the Appointment
 
-- Save & submit your new playlist to your Spotify account
-
-- Playlist populates in your Spotify for you to play
+- Submit Appointment to list as a reminder of upcoming appointments
